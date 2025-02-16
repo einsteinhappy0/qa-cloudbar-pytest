@@ -1,0 +1,28 @@
+{
+    "name": "",
+    "version": 1,
+    "item_type": "",
+    "process_order": "",
+    "default_volume": 0,
+    "allow_sparkling": false,
+    "status": "active",
+    "data": [
+        {
+            "sugar_level": 100,
+            "ingredient": [
+                {
+                    "flavor": "",
+                    "volume_ml": "0",
+                    "ratio": "0",
+                    "unit_cost_per_ml": 0
+                }
+            ]
+        }
+    ],
+    "country": "",
+    "sku": "",
+    "unit_cost_per_ml": 0,
+    "drink_category": "",
+    "drink_tag": [],
+    "blender": ""
+}

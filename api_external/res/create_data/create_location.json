@@ -1,0 +1,55 @@
+{
+    "name": "",
+    "address": "",
+    "city": "",
+    "contact_email": "",
+    "contact_name": "",
+    "contact_phone": "",
+    "filter_program": false,
+    "free_shipping": false,
+    "no_sale_mute": false,
+    "order_bib_system": false,
+    "province": "",
+    "sell_acce": false,
+    "sell_topping": false,
+    "selling_item": [
+        {
+            "step_quantity": 1,
+            "max_quantity": 10,
+            "order_type": "Accessories",
+            "ordering_category": "Accessories",
+            "category": "Cleaning Supplies",
+            "sku": "1111926",
+            "name": "Sanitizer-Cleaning Powder ",
+            "quantity_per_order": "48 pack"
+        },
+        {
+            "step_quantity": 1,
+            "max_quantity": 5,
+            "order_type": "Accessories",
+            "ordering_category": "Accessories",
+            "category": "Cleaning Supplies",
+            "sku": "1114165",
+            "name": "Beverage Equipment Cleaner Tablets",
+            "quantity_per_order": "200 tablets"
+        }
+    ],
+    "store_code": "",
+    "zip_code": "",
+    "operating_hour_v2": [],
+    "multi_email": [],
+    "country": "United States",
+    "subscribe_order": false,
+    "subscribe_sales": false,
+    "vip": false,
+    "incoming_call_contacts": [
+        {
+            "phone": "12345678",
+            "name": "qatesting_contacts"
+        }
+    ],
+    "account_manager": {
+        "name": "qa_testing",
+        "email": "qatesting_cb@mailsac.com"
+    }
+}

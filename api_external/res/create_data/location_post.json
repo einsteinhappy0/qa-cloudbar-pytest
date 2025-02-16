@@ -1,0 +1,131 @@
+{
+    "name": "botrista",
+    "address": "318 Brannan St, San Francisco, CA 94107, United States",
+    "city": "CA",
+    "contact_email": "botrista@gmail.com",
+    "contact_name": "botrista",
+    "contact_phone": "09393292",
+    "filter_program": true,
+    "free_shipping": true,
+    "no_sale_mute": true,
+    "order_bib_system": true,
+    "province": "CA",
+    "sell_acce": true,
+    "sell_topping": true,
+    "selling_item": [
+        {
+            "order_type": "Accessories",
+            "category": "Boba straws",
+            "name": "8 in. Boba Straws",
+            "note": "",
+            "quantity_per_order": "2000 pcs",
+            "standard_price": 0,
+            "step_quantity": 1,
+            "max_quantity": 10,
+            "synced": true,
+            "status": "Active",
+            "_id": "61c3507bc4ef67002d84348e",
+            "sku": "63-UNB-BSTR-8IN-2000",
+            "date_modified": "2022-09-12T07:09:10.824Z",
+            "date_created": "2021-12-22T16:21:15.299Z",
+            "__v": 0
+        },
+        {
+            "order_type": "Toppings",
+            "category": "Toppings",
+            "name": "Coconut Jelly",
+            "note": "",
+            "quantity_per_order": "200",
+            "standard_price": 0,
+            "step_quantity": 1,
+            "max_quantity": 10,
+            "synced": true,
+            "status": "Active",
+            "_id": "6206bd99bfc2040026284265",
+            "sku": "63-COCO-BOB-200",
+            "date_modified": "2022-09-12T07:09:23.733Z",
+            "date_created": "2022-02-11T19:48:41.623Z",
+            "__v": 0
+        }
+    ],
+    "store_code": "123",
+    "zip_code": "318",
+    "operating_hour_v2": [
+        {
+            "select": false,
+            "time": [
+                [
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "select": true,
+            "time": [
+                [
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "select": true,
+            "time": [
+                [
+                    "12:30 AM",
+                    "03:30 AM"
+                ]
+            ]
+        },
+        {
+            "select": false,
+            "time": [
+                [
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "select": false,
+            "time": [
+                [
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "select": false,
+            "time": [
+                [
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "select": false,
+            "time": [
+                [
+                    "",
+                    ""
+                ]
+            ]
+        }
+    ],
+    "multi_email": [
+        "recipient@example.com",
+        "test@example.com"
+    ],
+    "country": "United States",
+    "subscribe_order": true,
+    "subscribe_sales": true,
+    "vip": true,
+    "timezone": "America/Los_Angeles",
+    "coordinates": {
+        "longitude": -122.2681469,
+        "latitude": 37.8299876
+    }
+}

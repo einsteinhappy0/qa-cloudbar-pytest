@@ -1,0 +1,28 @@
+{
+    "type": "",
+    "user_name": "",
+    "name": "",
+    "email": "",
+    "phone_number": "",
+    "owner_name": "",
+    "adjust_to_cup_size": true,
+    "subscribe": true,
+    "subscribe_daily": true,
+    "account_manager": "qa_testing",
+    "order_term": "Net 90",
+    "country": "",
+    "location_prefix": "",
+    "multi_email": [
+      "example1@mail.com",
+      "example2@mail.com"
+    ],
+    "subscribe_sales": true,
+    "subscribe_weekly": true,
+    "alert_mute": true,
+    "contract_status": "MSA",
+    "company_logo": "https://www.example.com/logo.png",
+    "screen_saver": "https://www.example.com/screen_saver.png",
+    "status": "active",
+    "sync_hq": false,
+    "head": ""
+  }
