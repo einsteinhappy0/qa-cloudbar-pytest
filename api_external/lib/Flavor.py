@@ -6,7 +6,6 @@ from typing import Dict, Any, List, Tuple, Optional
 from api_path import ApiPath, ApiPathInfo, Method, ResponseCode
 from api_external.lib.APIEndpointBase import APIEndpointBase
 from api_external.lib.CommonUtils import StringUtils, APIUtils
-from api_external.lib.JSONSchemaLibrary import JSONSchemaLibrary
 
 
 class Flavor(APIEndpointBase):

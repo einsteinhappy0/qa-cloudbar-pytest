@@ -6,7 +6,7 @@ import os
 from importlib import resources
 from pathlib import Path
 import constant
-from api_external.lib import *
+from api_external.lib.SwaggerHiker import SwaggerHiker
 from api_path import *
 
 

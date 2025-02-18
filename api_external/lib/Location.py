@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 from importlib import resources
 import json
-
-import api_path
 from api_external.lib.APIEndpointBase import APIEndpointBase
 from api_external.lib.CommonUtils import StringUtils
 from api_external.lib.CommonUtils import APIUtils

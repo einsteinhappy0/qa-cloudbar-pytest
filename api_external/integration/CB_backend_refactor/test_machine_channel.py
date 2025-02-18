@@ -18,5 +18,5 @@ def test_get_machine_channel_list():
     )
     
     # verify response schema
-    json_schema_lib = LIB.JSONSchemaLibrary(api_path, method, response_code)
+    json_schema_lib = JSONSchemaLibrary(api_path, method, response_code)
     assert json_schema_lib.verify_resp_schema(resp.json())

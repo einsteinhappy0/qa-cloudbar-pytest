@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import re
 import json
-import os
 import constant
 from api_path import *
 from api_external.lib.HttpRequestInit import HttpRequestInit

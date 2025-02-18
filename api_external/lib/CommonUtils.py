@@ -1,7 +1,6 @@
 import random
 import string
-from api_external.lib import *
-from api_path import *
+from api_external.lib.SwaggerHiker import SwaggerHiker
 
 
 class StringUtils:

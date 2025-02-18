@@ -1,9 +1,9 @@
 import pytest
 from api_external.lib import *
-# import constant
 
 
-def fixture_factory(test_obj):
+def fixture_factory(test_cls):
+    test_obj = test_cls()
     test_obj.create()
     yield test_obj
     test_obj.delete()
@@ -11,32 +11,37 @@ def fixture_factory(test_obj):
     
 @pytest.fixture(scope="function")
 def location():
-    yield from fixture_factory(Location())
+    yield from fixture_factory(Location)
     
     
 @pytest.fixture(scope="function")
 def machine():
-    yield from fixture_factory(Machine())
+    yield from fixture_factory(Machine)
 
 
 @pytest.fixture(scope="function")
 def user():
-    yield from fixture_factory(User())
+    yield from fixture_factory(User)
     
     
 @pytest.fixture(scope="function")
 def corporation():
-    yield from fixture_factory(Corporation())
+    yield from fixture_factory(Corporation)
     
     
 @pytest.fixture(scope="function")
 def flavor():
-    yield from fixture_factory(Flavor())
+    yield from fixture_factory(Flavor)
     
     
 @pytest.fixture(scope="function")
+def drink():
+    yield from fixture_factory(Drink)
+
+
+@pytest.fixture(scope="function")
 def menu():
-    yield from fixture_factory(Menu())
+    yield from fixture_factory(Menu)
 
 
 def pytest_collection_modifyitems(config, items):
